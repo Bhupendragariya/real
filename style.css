@@ -548,6 +548,7 @@ a{
     .social-icons{
         display: flex;
         justify-items: center;
+        gap: 1rem;
     }
 
     
