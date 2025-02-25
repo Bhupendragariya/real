@@ -396,7 +396,7 @@ a{
     }
 
     #home-nav{
-        background-color: white;
+       
         width: full;
         height: 100vh;
         list-style: none;
@@ -406,6 +406,7 @@ a{
     }
     .nav-link{
         font-size: 1rem;
+        color: white;
     }
     .mobile-menu-toggle{
         visibility: visible;
