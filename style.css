@@ -401,7 +401,8 @@ a{
         height: 100vh;
         list-style: none;
         justify-items: center;
-        line-height: 3.5rem
+        line-height: 3.5rem;
+        padding-left: 0;
 
     }
     .nav-link{

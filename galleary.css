@@ -341,12 +341,13 @@ a{
         width: auto;
     }
     #home-nav{
-        background-color: white;
+        background-color: #f8f8f8;
         position: relative;
         width: full;
         list-style: none;
         justify-items: center;
         line-height: 3.5rem;
+        padding-left: 0;
 
     }
     .nav-link{
