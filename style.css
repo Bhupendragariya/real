@@ -254,6 +254,9 @@ a{
     left: 9%;
     color: white;
 }
+#home-nav{
+    display: none;
+}
 
 
 
@@ -390,6 +393,19 @@ a{
     .section-navbar-two .nav-links {
         display: none;
       
+    }
+
+    #home-nav{
+        background-color: white;
+        width: full;
+        height: 100vh;
+        list-style: none;
+        justify-items: center;
+        line-height: 3.5rem
+
+    }
+    .nav-link{
+        font-size: 1rem;
     }
     .mobile-menu-toggle{
         visibility: visible;

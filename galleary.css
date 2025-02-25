@@ -89,6 +89,18 @@ a{
     position: relative;
 
 }
+
+.mobile-menu-toggle {
+    visibility: hidden;
+}
+
+#home-nav{
+    display: none;
+}
+
+
+
+
 .contact-img{
     background-image: url(./image/Rectangle\ 25.png);
 
@@ -320,13 +332,31 @@ a{
         gap: 15px;
       }
     
-    .nav-link{
+    /* .nav-link{
         display: none;
     
-    }
+    } */
     
     .container{
         width: auto;
+    }
+    #home-nav{
+        background-color: white;
+        position: relative;
+        width: full;
+        list-style: none;
+        justify-items: center;
+        line-height: 3.5rem;
+
+    }
+    .nav-link{
+        font-size: 1rem;
+
+    }
+    .mobile-menu-toggle{
+        visibility: visible;
+        margin-right: 1rem;
+        font-size: large;
     }
     
 

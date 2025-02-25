@@ -89,6 +89,17 @@ a{
     position: relative;
 
 }
+.mobile-menu-toggle {
+    visibility: hidden;
+}
+
+#home-nav{
+    display: none;
+}
+
+
+
+
 .contact-img{
     background-image: url(./image/Rectangle\ 25.png);
 
@@ -319,8 +330,24 @@ a{
         gap: 1rem;
       }
     
-    .nav-link{
+    /* .nav-link{
         display: none;
+    } */
+    #home-nav{
+        background-color: white;
+        width: full;
+        list-style: none;
+        justify-items: center;
+        line-height: 3.5rem
+
+    }
+    .nav-link{
+        font-size: 1rem;
+    }
+    .mobile-menu-toggle{
+        visibility: visible;
+        margin-right: 1rem;
+        font-size: large;
     }
 
     
@@ -334,6 +361,7 @@ a{
     }
     .cont-one{
         display: block;
+        padding-top: 0;
     }
 
     .tow-img{
@@ -351,6 +379,7 @@ a{
     .container{
         width: auto;
     }
+    
 
     
    
